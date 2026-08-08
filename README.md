@@ -47,15 +47,15 @@ refer to the paper.
 
 | FINN concept | Section | Where it appears here |
 |---|---|---|
-| Popcount and XOR logic for accumulation — count set bits after XNOR instead of signed values using a MAC unit | §4.2.1 | `xnor_popcount.sv` |
-| Unsigned threshold comparison instead of the traditional signed batch normalisation | §4.2.2 | `batch_normalisation.sv` |
-| Boolean OR for max-pooling, valid because thresholding will give us values between 0 and 1 | §4.2.3 | `pooling_unit.sv` |
-| Matrix–Vector–Threshold Unit for mathematical computing | §4.3.1 | `MVTU.sv` |
-| Sliding Window Unit built from line buffers and shift registers | §4.3.2 | `sliding_window_unit.sv`, `line_buffer.sv`, `shift_register.sv` |
-| Pooling Unit as line buffers plus OR reduction | §4.3.3 | `pooling_unit.sv` |
-| Heterogeneous streaming module — one compute engine per layer, connected by streams | §4.1 | `neural_network_top.sv` |
+| Popcount and XOR logic for accumulation — count set bits after XNOR instead of signed values using a MAC unit | 4.2.1 | `xnor_popcount.sv` |
+| Unsigned threshold comparison instead of the traditional signed batch normalisation | 4.2.2 | `batch_normalisation.sv` |
+| Boolean OR for max-pooling, valid because thresholding will give us values between 0 and 1 | 4.2.3 | `pooling_unit.sv` |
+| Matrix–Vector–Threshold Unit for mathematical computing | 4.3.1 | `MVTU.sv` |
+| Sliding Window Unit built from line buffers and shift registers | 4.3.2 | `sliding_window_unit.sv`, `line_buffer.sv`, `shift_register.sv` |
+| Pooling Unit as line buffers plus OR reduction | 4.3.3 | `pooling_unit.sv` |
+| Heterogeneous streaming module — one compute engine per layer, connected by streams | 4.1 | `neural_network_top.sv` |
 
-**What is deliberately not implemented:** FINN's folding parameters as proposed in §4.4, feature maps with multiple channels, and the HLS-based design
+**What is deliberately not implemented:** FINN's folding parameters as proposed in 4.4, feature maps with multiple channels, and the HLS-based design
 flow. This design uses a single channel.
 
 ---
