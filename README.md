@@ -1,4 +1,6 @@
-# <PROJECT_NAME> — A Streaming Binarized Neural Network Accelerator for MNIST
+# A Streaming Binarized Neural Network Accelerator for MNIST
+
+[Kindly note that the README still needs some major updates !!]
 
 <!-- Badges: replace or delete -->
 ![Language](https://img.shields.io/badge/SystemVerilog-IEEE%201800-blue)
