@@ -2,7 +2,6 @@
 
 <!-- Badges: replace or delete -->
 ![Language](https://img.shields.io/badge/SystemVerilog-IEEE%201800-blue)
-![Target](https://img.shields.io/badge/target-<FPGA_FAMILY>-green)
 ![Accuracy](https://img.shields.io/badge/MNIST%20accuracy-70.5%25-yellow)
 
 [Kindly note that the README still needs some major updates !!]
