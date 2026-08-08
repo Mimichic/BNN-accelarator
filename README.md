@@ -10,7 +10,7 @@
 Hello everybody! Thank you for checking out this repository. This was done in an effort to create a fully binarized CNN engine written entirely in SystemVerilog. 
 The current code is capable of classifying 28 x 28 MNIST digits using simple and easily understandable XNOR, popcount, OR and comparison logic, completely eliminating the need for a MAC unit as one would expect from a CNN engine! (super super cool) 
 
-The architecture is inspired by **FINN: A Framework for Fast, Scalable Binarized Neural Network Inference** (Umuroglu et al., FPGA 2017, [arXiv:1612.07119](https://arxiv.org/abs/1612.07119)). The paper implements the core logic through Vivado HLS in a higher level language. While my work is simply an attempt to borrow the aforementioned logic and implement at RTL level. There are plans of integrating more elements in this project, something along the lines of an AXI interface sounds exciting, so does bulding an advanced testbench.
+The architecture is inspired by **FINN: A Framework for Fast, Scalable Binarized Neural Network Inference** (Umuroglu et al., FPGA 2017). The paper implements the core logic through Vivado HLS in a higher level language. While my work is simply an attempt to borrow the aforementioned logic and implement at RTL level. There are plans of integrating more elements in this project, something along the lines of an AXI interface sounds exciting, so does bulding an advanced testbench.
 
 ---
 
