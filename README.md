@@ -88,7 +88,7 @@ flow. This design uses a single channel.
 
 ## Repository Layout
 
-    <PROJECT_NAME>/
+    BNN accelerator/
     ├── docs/                         schematics and waveforms
     │   ├── schematic_top_level.png
     │   ├── schematic_layer1_conv_pool.png
